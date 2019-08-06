@@ -108,17 +108,16 @@ h1, h2, h3, h4, h5 {
 	line-height: 80px;
 }
 
-.main-con a {
-	color: rgb(27, 27, 27);
-}
 .main-con a button {
 	position: relative;
 	top: 15px;
 	padding: 6px 30px;
 	border: 1px solid rgb(27, 27, 27);
 	background: transparent;
-	font-size: 20px;
-	width: 180px;
+	font-size: 16px;
+	font-weight: 600;
+	width: 170px;
+	font-family: 'Titillium Web', 'sans-serif';
 }
 
 .main-con a button:hover {
@@ -141,6 +140,10 @@ header hr  {
 .section-con {
 	text-align: center;
 	margin-top: 35px;
+}
+
+.section-con p {
+	line-height: 20px;
 }
 
 .sects {
@@ -195,12 +198,12 @@ section.sects.vision {
 	display: inline-block;
 	text-align: left;
 	right: 365px;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 footer {
 	margin-top: 60px;
 	text-align: center;
 	font-size: 14px;
-	margin-bottom: 80px;
+	margin-bottom: 90px;
 }
