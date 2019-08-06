@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.body-con {
+	color: rgb(27, 27, 27);
+}
+
 .nav-con {
 	text-align: center;
 }
@@ -72,13 +76,14 @@ h1, h2, h3, h4, h5 {
 .head-nav {
 	display: inline-block;
 	position: relative;
-	right: 20px;
+	right: 15px;
 	top: 20px;
 	font-size: 15px;
 }
 .head-nav a {
 	text-decoration: none;
 	padding-right: 60px;
+	color: rgb(39, 38, 38);
 }
 
 .img-div {
@@ -94,22 +99,31 @@ h1, h2, h3, h4, h5 {
 
 .main-con {
 	display: inline-block;
-	margin-top: 150px;
+	margin-top: 145px;
 }
 
 .main-con h1 {
 	font-size: 80px;
+	letter-spacing: 1.2px;
+	line-height: 80px;
 }
 
+.main-con a {
+	color: rgb(27, 27, 27);
+}
 .main-con a button {
 	position: relative;
-	top: 20px;
-	padding: 5px 30px;
-	border: 1px solid black;
+	top: 15px;
+	padding: 6px 30px;
+	border: 1px solid rgb(27, 27, 27);
 	background: transparent;
 	font-size: 20px;
+	width: 180px;
 }
 
+.main-con a button:hover {
+	cursor: pointer;
+}
 .main-img {
 	display: inline-block;
 	position: relative;
@@ -117,14 +131,16 @@ h1, h2, h3, h4, h5 {
 	left: 90px;
 }
 
-hr {
-	position: relative;
-	top: 100px;
+header hr  {
+	margin-right: auto 0;
+	margin-left: auto 0;
+	margin-top: 120px;
+	width: 65%;
 }
 
 .section-con {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 35px;
 }
 
 .sects {
@@ -133,7 +149,7 @@ hr {
 	width: 400px;
 	position: relative;
 	margin-bottom: 50px;
-	margin-top: 40px;
+	/* margin-top: 40px; */
 }
 
 section.sects.features {
@@ -146,6 +162,7 @@ section.sects.about {
 
 .content-img {
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 section.sects.services {
@@ -162,9 +179,11 @@ section.sects.vision {
 	left: 15px;
 }
 
-.section-con hr {
-	position: relative;
-	top: -10px;
+.section-con hr  {
+	margin-right: auto 0;
+	margin-left: auto 0;
+	margin-top: 5px;
+	width: 65%;
 }
 
 .contact-con {
@@ -183,4 +202,5 @@ footer {
 	margin-top: 60px;
 	text-align: center;
 	font-size: 14px;
+	margin-bottom: 80px;
 }
